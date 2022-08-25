@@ -1,5 +1,6 @@
 git config --global user.name “[firstname lastname]”
 git config --global user.email “[valid-email]”
+git pull
 git status
 git add [file]
 git commit -m “[descriptive message]”
