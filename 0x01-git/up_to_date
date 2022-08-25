@@ -1,0 +1,21 @@
+git config --global user.name “[firstname lastname]”
+git config --global user.email “[valid-email]”
+git status
+git add [file]
+git commit -m “[descriptive message]”
+git branch [branch-name]
+git checkout
+git merge [branch]
+merge the specified branch’s history into the current one
+git remote add [alias] [url]
+add a git URL as an alias
+git fetch [alias]
+fetch down all the branches from that Git remote
+git merge [alias]/[branch]
+merge a remote branch into your current branch to bring it up to date
+git push [alias] [branch]
+Transmit local branch commits to the remote repository branch
+git rm [file]
+delete the file from project and stage the removal for commit
+git mv [existing-path] [new-path]
+change an existing file path and stage the move
